@@ -1,0 +1,17 @@
+<?php
+
+define('DBHOST', 'localhost');
+define('DB', 'pmgen_db');
+define('DBUSER', 'root');
+define('DBPASSWORD', '');
+define('DB_LIMIT', '500'); //limit of stored instances of markers during generation
+
+define('IMAGE_PATH', '/img_db');
+define('IMAGE_PATH_ORIGINAL', '/original');
+define('IMAGE_PATH_THUMB', '/thumb');
+
+define('DOC_ROOT', '/pmgen'); //update it based on your URL on server
+$_SERVER['DOCUMENT_ROOT'] .= DOC_ROOT;
+
+$USERS = array( 'admin' => '{md5hash}' );
+?>
