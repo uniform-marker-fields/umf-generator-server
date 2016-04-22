@@ -41,3 +41,10 @@ No rewrite is needed, just point the server to this directory.
     * ```$ cp inc\server-settings.php.example inc\server-settings.php```
     * update configuration file based on your needs
     
+
+Related Projects
+----------------------------------------
+
+* [UMF generator client](https://github.com/szist/umf-generator-client)
+* [UMF detector](https://github.com/szist/umf-detector)
+* [UMF unity plugin] (https://github.com/szist/umf-unity)
